@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import psycopg2
 
-DB_URL = "postgresql://postgres:ty/%q3MpCS?K.N5]@db.dcsgnjfhjdfcgagqyrru.supabase.co:5432/postgres"
+DB_URL = "postgresql://postgres:ty/%q3MpCS?K.N5@db.dcsgnjfhjdfcgagqyrru.supabase.co:5432/postgres"
 
 st.title("🍔 Lanchonete Universitária — Sistema em Tempo Real")
 st.write("Interface integrada com Supabase rodando localmente no Colab.")
