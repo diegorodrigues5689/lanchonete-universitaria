@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import psycopg2
 
-DB_URL = "postgresql://postgres:senhadalanchonete@db.dcsgnjfhjdfcgagqyrru.supabase.co:6543/postgres"
+# URL corrigida usando o formato de Session Pooler do Supabase (Porta 6543)
+DB_URL = "postgresql://postgres.dcsgnjfhjdfcgagqyrru:senhadalanchonete@aws-0-sa-east-1.pooler.supabase.com:6543/postgres"
 
 st.title("🍔 Lanchonete Universitária — Sistema em Tempo Real")
 st.write("Interface integrada com Supabase.")
