@@ -3,7 +3,8 @@ import pandas as pd
 import psycopg2
 
 # URL de conexão com o Supabase (Porta 6543 - Session Pooler)
-DB_URL = "postgresql://postgres:novalanchonete@db.kmfhqphghqyhhbisltca.supabase.co:5432/postgres"
+# URL de conexão com o Supabase (Porta 6543 - Session Pooler)
+DB_URL = "postgresql://postgres.kmfhqphghqyhhbisltca:novalanchonete@aws-0-sa-east-1.pooler.supabase.co:6543/postgres"
 
 st.title("🍔 Lanchonete Universitária")
 st.write("Interface integrada com Supabase.")
