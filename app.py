@@ -6,7 +6,7 @@ import psycopg2
 # Substitua pelo host de pooler IPv4 fornecido pelo Supabase
 DB_URL = "postgresql://postgres.kmfhqphghqyhhbisltca:yXDJZdcICkXTRBj8@aws-0-sa-east-1.pooler.supabase.co:6543/postgres"
 
-st.title("🍔 Lanchonete Universitária — Sistema em Tempo Real")
+st.title("🍔 Lanchonete Universitária")
 st.write("Interface integrada com Supabase.")
 
 st.subheader("➕ Novo Pedido")
