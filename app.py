@@ -4,7 +4,7 @@ import psycopg2
 
 # URL de conexão com o Supabase (Porta 6543 - Session Pooler)
 # URL de conexão com o Supabase (Porta 6543 - Session Pooler)
-DB_URL = "postgresql://postgres.kmfhqphghqyhhbisltca:novalanchonete@aws-0-sa-east-1.pooler.supabase.co:6543/postgres"
+DB_URL = "postgresql://postgres.kmfhqphghqyhhbisltca:novalanchonete@aws-0-sa-east-1.pooler.supabase.com:5432/postgres"
 
 st.title("🍔 Lanchonete Universitária")
 st.write("Interface integrada com Supabase.")
